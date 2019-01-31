@@ -81,6 +81,7 @@ TARGET_OTA_ASSERT_DEVICE := curtana
 BOARD_AVB_ENABLE := true
 BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 
+
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_FLASH_BLOCK_SIZE := 262144
@@ -96,6 +97,11 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := product vendor system odm
 # System as root
 BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
 BOARD_SUPPRESS_SECURE_ERASE := true
+
+# Encryption
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
+TARGET_HW_DISK_ENCRYPTION := true
+PLATFORM_SECURITY_PATCH := 2029-10-01
 
 # File systems
 TARGET_USERIMAGES_USE_EXT4 := true

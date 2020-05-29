@@ -1,3 +1,4 @@
+<<<<<<< HEAD:omni_curtana.mk
 
 #
 # Copyright (C) 2019 The TwrpBuilder Open-Source Project
@@ -35,7 +36,3 @@ PRODUCT_NAME := omni_curtana
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 9S
 PRODUCT_MANUFACTURER := Xiaomi
-
-# HACK: Set vendor patch level
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2099-12-31

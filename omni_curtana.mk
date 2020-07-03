@@ -1,4 +1,3 @@
-<<<<<<< HEAD:omni_curtana.mk
 
 #
 # Copyright (C) 2019 The TwrpBuilder Open-Source Project
